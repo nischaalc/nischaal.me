@@ -1,0 +1,19 @@
+.summary {
+    padding-top: 20%;
+    text-align: center;
+}
+
+.summary .programmer
+{
+    float: none;
+}
+
+.summary .design
+{
+    float: none;
+}
+
+.summary ul
+{
+    list-style-type: none;
+}
