@@ -2,37 +2,73 @@
 
 <html>
 <head>
-    <title>My page </title>
+    <title> About Me </title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="My personal web page.">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/about.css">
+	<link rel = "stylesheet" href = "css/specialLinkCSS.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel = "stylesheet" href = "css/about.css">
     <script src = "scripts/main.js"></script>
 </head>
 
 <body>
     
-    <div id = "navigation"> 
-    <a href = "index.html" class = "link">
-        <div class = "navoption"> Home </div>
-    </a>
-    <a href = "about.html" class = "link">
-        <div class = "navoption">About Me</div>
-    </a>
-    <a href = "contact.html" class = "link">
-        <div class = "navoption">Contact Me</div>
-    </a>
-    <a href = "projects.html" class = "link">
-        <div class = "navoption">Projects</div>
-    </a>
-    </div>
-    
-    
-        
-    <div id = "footer"> <p>Made with &hearts;, HTML5 & CSS3 by me</p></div>
+<div id = "navigation"> 
+	<nav class = "nav-effect" id = "nav-effect">
+		<a href = "index.html" class = "link">
+			<div class = "navoption"><img src = "images/home.png" alt = "Home"></div>
+		</a>
+		<a href = "about.html" class = "link">
+			<div class = "navoption"><img src = "images/me.png" alt = "About Me"></div>
+		</a>
+		<a href = "projects.html" class = "link">
+			<div class = "navoption"><img src = "images/work.png" alt = "Work"></div>
+		</a>
+	</nav>
+</div>
+
+<div id = "tagline">
+	<p> So you want to get to know me, do you? </p>
+</div>
+
+<section class = "special-link">
+	<p>
+	Hailing from Sri Lanka, I have attended two of the leading schools in the country, starting at 
+	<a href = "http://en.wikipedia.org/wiki/S._Thomas'_Preparatory_School">St. Thomas' Preparatory School</a>
+	and finishing my education at <a href = "http://britishschool.lk/home/">The British School in Colombo</a>. Somewhere
+	in between these two waypoints, I developed a love for computers which has guided the choices I've made
+	in life. 
+	</p>
+	<p>
+	I am currently studying at <a href = "www.drexel.edu">Drexel University</a> in <a href = "http://en.wikipedia.org/wiki/Philadelphia">
+	Philadelphia</a>, where I aim to graduate with a Bachelor of Science in <a href = "http://www.drexel.edu/cs/">
+	Computer Science</a> by 2018. Being a Dragon (that's what we Drexel students call ourselves) has given me the opportunity to 
+	work with others on several projects, most of which can be found at	my 
+	<a href = "https://github.com/nischaalc">GitHub</a>. 
+	<p>
+	My main interest in becoming a computer scientist was to learn more about
+	<a href = "http://en.wikipedia.org/wiki/Artificial_intelligence" target = "_blank">
+	Artificial Intelligence</a> but I found that I also enjoy mobile development, Web development and UX
+	design. This is probably my one gripe about CS - being such a vast field, how are we meant to find
+	a single thing that we love doing more than anything else?!
+	</p>
+	<p>
+	Anyway, that's pretty much everything about me that can't be found on my personal pages (links below).
+	Feel free to contact me, I don't bite!  
+	</p>
+</section>
+
+<div id = "subtag"> <p>Get in touch!</p></div>
+
+<div id = "contactlist">
+	<a href = "https://github.com/nischaalc" class = "contactlink"><img src = "images/git.png" alt = "GitHub"></a>
+	<a href = "https://www.linkedin.com/profile/view?id=340474561" class = "contactlink"><img src = "images/linked.png" alt = "LinkedIn"></a>
+	<a href = "mailto:nischaalc@gmail.com" class = "contactlink"><img src = "images/mail.png" alt = "E-Mail"></a>
+</div>
+
+<div id = "footer"> <p>Made with &hearts; by me</p></div>
     
 </body>
 </html>

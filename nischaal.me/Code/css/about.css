@@ -1,19 +1,24 @@
-.summary {
-    padding-top: 20%;
-    text-align: center;
+p {
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
-.summary .programmer
-{
-    float: none;
+#subtag {
+	text-align: center;
+	color: rgb(199, 182, 109);
+	font-size: 24px;
 }
 
-.summary .design
-{
-    float: none;
+#contactlist {
+	text-align: center;
 }
 
-.summary ul
-{
-    list-style-type: none;
+.contactlink {
+	padding-left: 2em;
+	padding-right: 2em;
 }
+
+
+
+

@@ -1,0 +1,25 @@
+.item-container {
+	background-color: rgb(249, 247, 246);
+	border: 2px solid;
+	border-radius: 15px;
+	border-color: rgb(52, 73, 94);
+	width: 300px;
+	height: 100px;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-top: 3%;
+}
+
+#intro-text {
+	text-align: center;
+	color: rgb(199, 182, 109);
+	font-size: 24px;
+}
+
+.item-container p {
+	text-align: center;
+}
+
+.item-container img {
+	position: 
+}

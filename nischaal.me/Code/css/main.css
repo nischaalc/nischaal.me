@@ -5,8 +5,73 @@ body {
     font-size: 16px;
     line-height: 1.5em;
     color: #000;
-    background-color: #c12a2a;
+    background-color: rgb(231, 76, 60);
     
+}
+
+#tagline{ 
+	padding-top: 5%;
+    line-height: 10px;
+    font-size: 350%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+    background-position: center center;
+    background-size: 300%;
+    color: rgb(199, 182, 109);
+    text-align: center;   
+}
+
+nav a {
+	position: relative;
+	margin: 15px 25px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 100;
+	font-size: 1em;
+}
+
+/* Animation effect for the navigation bar */
+/* Inspired from a demo on typmanus.net */
+
+.nav-effect a::before,
+.nav-effect a::after {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 90px;
+	height: 90px;
+	border: 2px solid rgba(248,248,255,0.5);
+	border-radius: 50%;
+	content: '';
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transform: translateX(-50%) translateY(-50%) scale(0.2);
+	-moz-transform: translateX(-50%) translateY(-50%) scale(0.2);
+	transform: translateX(-50%) translateY(-50%) scale(0.2);
+}
+
+.nav-effect a::after {
+	width: 70px;
+	height: 70px;
+	border-width: 4px;
+	-webkit-transform: translateX(-50%) translateY(-50%) scale(0.8);
+	-moz-transform: translateX(-50%) translateY(-50%) scale(0.8);
+	transform: translateX(-50%) translateY(-50%) scale(0.8);
+}
+
+.nav-effect a:hover::before,
+.nav-effect a:hover::after,
+.nav-effect a:focus::before,
+.nav-effect a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+	-moz-transform: translateX(-50%) translateY(-50%) scale(1);
+	transform: translateX(-50%) translateY(-50%) scale(1);
 }
 
 #navigation {
@@ -15,17 +80,14 @@ body {
     text-align: center;
     width : 100%;
     display: block;
-    background-color: rgba(0, 0, 0, 0.28);
 }
 
-.navoption {    
-    padding-right: 5em;
-    padding-left: 5em;
-    padding-top: 1em;
-    padding-bottom: 1em; 
+.navoption { 
+	padding-top: 1.5em;
+	padding-right: 1em;
+	padding-left: 1em;
     display: inline-block;
-    font-size: 1em;
-    color: rgb(255, 255, 255)
+
 }
 
 .link{
@@ -36,16 +98,16 @@ body {
     display: block;
     text-align: center;
     font-size: 0.75em;
-    margin-left: auto;
-    margin-right: auto;
     padding-bottom: 0.5em;
-    background-color: rgb(157, 157, 157)
     z-index: 10;
     bottom:0;
     width: 100%;
     position:fixed;
-    left: 0px;
-    bottom:0px;
     height: 30px;
-    color: rgb(154, 154, 154)    
+    color: rgb(154, 154, 154);
+}
+
+a {
+	text-decoration: none;
+	color: rgb(52, 73, 94)
 }
