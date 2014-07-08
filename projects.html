@@ -6,25 +6,42 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="My personal web page.">
+	
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/projects.css">
 	<link rel = "stylesheet" href = "css/specialLinkCSS.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <script src = "scripts/main.js"></script>
+	<link rel = "stylesheet" href = "css/modalDialog.css">
+	<!--
+	<script type="text/javascript" src="scripts/flowtype.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Pacifico' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lobster|Lato|Raleway' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Inconsolata|Anonymous+Pro' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    
+
 <div id = "navigation"> 
 	<nav class = "nav-effect" id = "nav-effect">
 		<a href = "index.html" class = "link">
-			<div class = "navoption"><img src = "images/home.png" alt = "Home"></div>
+			<div class = "navoption">
+			<img src = "images/home.png" alt = "Home"/>
+			<p class = "img-caption">Home</p>
+			</div>
 		</a>
 		<a href = "about.html" class = "link">
-			<div class = "navoption"><img src = "images/me.png" alt = "About Me"></div>
+			<div class = "navoption">
+			<img src = "images/me.png" alt = "About Me"/>
+			<p class = "img-caption">Me!</p>
+			</div>
 		</a>
 		<a href = "projects.html" class = "link">
-			<div class = "navoption"><img src = "images/work.png" alt = "Work"></div>
+			<div class = "navoption">
+			<img src = "images/work.png" alt = "Work"/>
+			<p class = "img-caption">Work</p>
+			</div>
 		</a>
 	</nav>
 </div>
@@ -34,14 +51,39 @@
 </div>
 
 <section class = "special-link">
-	<p id = "intro-text"> Most of my projects are open source and can be found at my <a href ="https://github.com/nischaalc">GitHub</a>.</p>
+	<p id = "subtitle-text"> Most of my work is <a href = "http://opensource.org/osd">open source</a> and can be found at my <a href ="https://github.com/nischaalc" target = "_blank" >GitHub</a>.</p>
 </section>
-    
-<div class = "item-container">
-	<p> Test </p>
+
+<div id = "proj-container">
+	<div class = "proj-row">
+		<div id = "projects">
+			<a href = "https://github.com/nischaalc/Shopaholic" target = "_blank">
+				<button class = "project-item">
+				<img src = "images/shopaholic.ico" class = "project-img"/>
+				Shopaholic.
+				<p class = "subtext">Shop Better.</p>
+				</button>
+			</a>
+			<a href = "https://github.com/nischaalc/nischaal.me" target = "_blank">
+				<button class = "project-item">
+					<img src = "images/me.png" class = "project-img"/>
+					nischaal.me
+					<p class = "subtext">You're looking at it :)</p>
+				</button>
+			</a>
+			<button class = "project-item">
+				<img src = "images/swipe.ico" class = "project-img"/>
+				Swipe-aholic!
+				<p class = "subtext">Get those ads!</p>
+			</button>
+		</div>
+	</div>
 </div>
 
-<div id = "footer"> <p>Made with &hearts; by me</p></div>
-    
+<div id = "subtitle-text">
+	<p>Don't worry! There's more coming soon!</p>
+</div>
+<div id = "footer"> <p>Designed and developed by me.</p></div>
+
 </body>
 </html>
