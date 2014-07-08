@@ -2,30 +2,26 @@ body {
     margin: 0 auto;
     max-width: 100%;
     font-family: 'Open Sans', sans-serif;
+	line-height: 1em;
     font-size: 16px;
-    line-height: 1.5em;
     color: #000;
-    background-color: rgb(231, 76, 60);
-    
+    background-color: rgb(231, 76, 60); 
 }
 
 #tagline{ 
 	padding-top: 5%;
-    line-height: 10px;
+    line-height: 0;
     font-size: 350%;
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	background-clip: text;
-    background-position: center center;
-    background-size: 300%;
     color: rgb(199, 182, 109);
     text-align: center;   
+	padding-left: 10%;
+	padding-right: 10%;
+	font-family: 'Pacifico', cursive;
 }
 
 nav a {
 	position: relative;
 	margin: 15px 25px;
-	outline: none;
 	color: #fff;
 	text-decoration: none;
 	letter-spacing: 1px;
@@ -90,10 +86,6 @@ nav a {
 
 }
 
-.link{
-    text-decoration: none;
-}
-
 #footer{
     display: block;
     text-align: center;
@@ -118,10 +110,9 @@ a {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: rgba(29, 106, 154, 0.72);
 	color: #fff;
 	visibility: hidden;
-	opacity: 0;
+	line-height: 1.5em;
 }
 
 #navigation:hover .img-caption {
