@@ -1,22 +1,29 @@
-p {
+.special-link p {
 	text-align: center;
 	padding-left: 10%;
 	padding-right: 10%;
+	line-height: 1.5em;
 }
 
 #subtag {
 	text-align: center;
 	color: rgb(199, 182, 109);
 	font-size: 24px;
+	line-height:0;
 }
 
 #contactlist {
 	text-align: center;
+	display: block;
+    padding-bottom: 0.8em;
+    bottom:9px;
+    width: 100%;
+    position:fixed;
 }
 
 .contactlink {
-	padding-left: 2em;
-	padding-right: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 
