@@ -17,8 +17,7 @@
 #contactlist {
     text-align: center;
     display: block;
-    padding-bottom: 1em;
-    bottom:9px;
+    bottom:2em;
     width: 100%;
     position:fixed;
 }
