@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 
 <html>
 <head>
@@ -6,11 +13,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="My personal web page.">
+	
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/homepage.css">
 	<link rel = "stylesheet" href = "css/specialLinkCSS.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <script src = "scripts/main.js"></script>
+	
+	<!--
+	<script type="text/javascript" src="scripts/flowtype.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	-->
+	
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Pacifico' rel='stylesheet' type='text/css'>
+
 </head>
 
 <body>
@@ -19,24 +34,25 @@
 	<nav class = "nav-effect" id = "nav-effect">
 		<a href = "index.html" class = "link">
 			<div class = "navoption">
-				<img src = "images/home.png" alt = "Home">
-				<p class = "img-caption">Home</p>
+			<img src = "images/home.png" alt = "Home"/>
+			<p class = "img-caption">Home</p>
 			</div>
 		</a>
 		<a href = "about.html" class = "link">
 			<div class = "navoption">
-				<img src = "images/me.png" alt = "About Me">
-				<p class = "img-caption">Me!</p>
+			<img src = "images/me.png" alt = "About Me"/>
+			<p class = "img-caption">Me!</p>
 			</div>
 		</a>
 		<a href = "projects.html" class = "link">
 			<div class = "navoption">
-				<img src = "images/work.png" alt = "Work">
-				<p class = "img-caption">Work</p>
+			<img src = "images/work.png" alt = "Work"/>
+			<p class = "img-caption">Work</p>
 			</div>
 		</a>
 	</nav>
 </div>
+
 
 <div id = "tagline">
     <p>"Do one thing every day that scares you."</p>
@@ -51,8 +67,18 @@
     </p>
 </div>
     
-<div id = "footer"> <p>Made with &hearts; by me</p></div>
+<div id = "footer"> <p>Designed and developed by me.</p></div>
+
+<script>
+$('body').flowtype({
+ minimum   : 500,
+ maximum   : 1200,
+ minFont   : 12,
+ maxFont   : 40,
+ fontRatio : 30
+});
+</script>
+
 
 </body>
-
 </html>
