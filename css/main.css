@@ -6,6 +6,7 @@ body {
     font-size: 100%;
     color: #000;
     background-color: rgb(231, 76, 60); 
+	min-height: 100%;
 }
 
 #tagline{ 
@@ -88,13 +89,11 @@ nav a {
     display: block;
     text-align: center;
     font-size: 0.75em;
-    padding-bottom: 0.5em;
-    z-index: 10;
     bottom:0;
     width: 100%;
-    position:fixed;
     height: 30px;
     color: rgb(154, 154, 154);
+	position: fixed;
 }
 
 a {
@@ -116,16 +115,4 @@ a {
 #navigation:hover .img-caption {
 	visibility: visible;
 	opacity: 1;
-}
-
-@media screen and (max-width: 40em) {
-    body {
-        font-size:90%;
-    }
-}
- 
-@media screen and (max-width: 30em) {
-    body {
-        font-size:80%;
-    }
 }
