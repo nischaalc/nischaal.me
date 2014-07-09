@@ -2,7 +2,7 @@
 	text-align: center;
 	color: rgb(199, 182, 109);
 	font-size: 1.4em;
-	line-height: 1em;
+	line-height: 1;
 }
 
 .special-link p {
@@ -18,15 +18,15 @@
 	border: none;
 	border-radius: 5px;
 	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
+	font-size: 1.25em;
 	cursor: pointer;
 	display: inline-block;
 	outline: none;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-bottom: 10px;
-	line-height: 20px;
-	padding-top: 5px;
+	line-height: 1;
+	padding-top: 0.2em;
 	text-align: center;
 }
 
@@ -36,20 +36,20 @@
 
 button img {
 	float:left;
-	padding-left: 3px;
+	padding-left: 0.1em;
 	width: 60px;
 	height:60px;
 }
 
 #proj-container {
-	padding-top: 1%;
+	padding-top: 0.8em;
 	text-align: center;
     width: 100%;
 }
 
 .proj-row {
-	margin-left: 14.5%;
-	margin-right: 14.5%;
+	margin-left: 3em;
+	margin-right: 3em;
 }
 
 .subtext {
@@ -57,3 +57,4 @@ button img {
 	font-family: 'Lobster', cursive;
 	text-align: center;
 }
+
