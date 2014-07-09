@@ -3,15 +3,16 @@ body {
     max-width: 100%;
     font-family: 'Open Sans', sans-serif;
 	line-height: 1em;
-    font-size: 16px;
+    font-size: 100%;
     color: #000;
     background-color: rgb(231, 76, 60); 
 }
 
 #tagline{ 
-	padding-top: 5%;
-    line-height: 0;
-    font-size: 350%;
+	white-space:nowrap;
+	padding-top: 2%;
+    font-size: 4em;
+	line-height: 1;
     color: rgb(199, 182, 109);
     text-align: center;   
 	padding-left: 10%;
@@ -26,7 +27,6 @@ nav a {
 	text-decoration: none;
 	letter-spacing: 1px;
 	font-weight: 100;
-	font-size: 1em;
 }
 
 /* Animation effect for the navigation bar */
@@ -71,8 +71,7 @@ nav a {
 }
 
 #navigation {
-    position: fixed;
-    z-index: 10;
+	position: absolute;
     text-align: center;
     width : 100%;
     display: block;
@@ -83,7 +82,6 @@ nav a {
 	padding-right: 1em;
 	padding-left: 1em;
     display: inline-block;
-
 }
 
 #footer{
@@ -118,4 +116,16 @@ a {
 #navigation:hover .img-caption {
 	visibility: visible;
 	opacity: 1;
+}
+
+@media screen and (max-width: 40em) {
+    body {
+        font-size:90%;
+    }
+}
+ 
+@media screen and (max-width: 30em) {
+    body {
+        font-size:80%;
+    }
 }
