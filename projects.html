@@ -11,17 +11,27 @@
     <link rel="stylesheet" href="css/projects.css">
 	<link rel = "stylesheet" href = "css/specialLinkCSS.css">
 	<link rel = "stylesheet" href = "css/modalDialog.css">
-	<!--
+	
 	<script type="text/javascript" src="scripts/flowtype.js"></script>
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	-->
+	
     <link href='http://fonts.googleapis.com/css?family=Open+Sans|Pacifico' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lobster|Lato|Raleway' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lobster|Lato|Raleway|Roboto' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Inconsolata|Anonymous+Pro' rel='stylesheet' type='text/css'>
+	
 </head>
 
 <body>
+
+<script>
+	$('body').flowtype({
+   minimum   : 500,
+   maximum   : 1200,
+   minFont   : 12,
+   maxFont   : 40,
+   fontRatio : 30
+});
+</script>
 
 <div id = "navigation"> 
 	<nav class = "nav-effect" id = "nav-effect">
@@ -47,11 +57,11 @@
 </div>
 
 <div id = "tagline">
-	<p> Anything catch your fancy? </p>
+	<p>Anything catch your fancy?</p>
 </div>
 
 <section class = "special-link">
-	<p id = "subtitle-text"> I like <a href = "http://opensource.org/osd">Open Source</a> projects. Check out my <a href ="https://github.com/nischaalc" target = "_blank" >GitHub</a> for source code.</p>
+	<p id = "subtitle-text"> I like <a href = "http://opensource.org/osd">Open Source</a> projects. Check out my <a href ="https://github.com/nischaalc" target = "_blank" >GitHub</a>.</p>
 </section>
 
 <div id = "proj-container">
@@ -66,7 +76,7 @@
 			</a>
 			<a href = "https://github.com/nischaalc/nischaal.me" target = "_blank">
 				<button class = "project-item">
-					<img src = "images/m.png" class = "project-img"/>
+					<img src = "images/me.png" class = "project-img"/>
 					nischaal.me
 					<p class = "subtext">You're looking at it :)</p>
 				</button>
@@ -83,6 +93,7 @@
 <div id = "subtitle-text">
 	<p>Don't worry! There's more coming soon!</p>
 </div>
+
 <div id = "footer"> <p>Designed and developed by me.</p></div>
 
 </body>
