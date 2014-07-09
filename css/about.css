@@ -8,7 +8,7 @@
 #subtag {
 	text-align: center;
 	color: rgb(199, 182, 109);
-	font-size: 1.4em;
+	font-size: 1.6em;
 	font-family: 'Pacifico', cursive;
 }
 
@@ -16,7 +16,7 @@
 	text-align: center;
 	display: block;
     width: 100%;
-	margin-bottom: 2em;
+	margin-bottom: 0.2em;
 }
 
 .contactlink {
