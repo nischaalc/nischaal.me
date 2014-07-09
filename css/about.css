@@ -2,7 +2,7 @@
 	text-align: center;
 	padding-left: 10%;
 	padding-right: 10%;
-	line-height: 1.5em;
+	line-height: 1.5;
 }
 
 #subtag {
@@ -16,12 +16,12 @@
 	text-align: center;
 	display: block;
     width: 100%;
-	margin-bottom: 0.2em;
+	margin-bottom: 0.2;
 }
 
 .contactlink {
-	padding-left: 1em;
-	padding-right: 1em;
+	padding-left: 1;
+	padding-right: 1;
 }
 
 
