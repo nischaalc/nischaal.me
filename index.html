@@ -23,9 +23,9 @@
 	<link rel = "stylesheet" href = "css/specialLinkCSS.css">
 	
 	<script src="jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="scripts/flowtype.js"></script>
+	<script src="scripts/flowtype.js"></script>
 	
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Pacifico|Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico|Lobster|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	
 	<script>
 		$('body').flowtype({
@@ -36,6 +36,12 @@
 				fontRatio : 30
 		});
 	</script>
+	
+		<style>
+			span:first-child {
+				opacity: 1;
+			}
+		</style>
 
 </head>
 
@@ -69,11 +75,19 @@
 	<p>Hey there!</p>
 </div>
     
-<div id = "hometext">
-    <p>
-	Text coming soon!
-    </p>
-</div>
+<section id = "hometext">
+	<div class = "introtext">
+		<span class = "introline"> My name is Nischaal Cooray and I am</span>
+		<div class = "rot-section rot-words">
+			<span>Sri Lankan</span>
+			<span>a programmer</span>
+			<span>an amateur chef</span>
+			<span>a learner</span>
+			<span>a (wannabe) UX designer</span>
+			<span>an adventurer</span>
+		</div>
+	</div>
+</section>
 
 </body>
 </html>
