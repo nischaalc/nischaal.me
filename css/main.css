@@ -9,7 +9,7 @@ body {
 }
 
 #tagline{ 
-	padding-top: 2%;
+	padding-top: 2.2%;
     font-size: 4em;
     color: rgb(199, 182, 109);
     text-align: center;   
@@ -112,4 +112,25 @@ a {
 #navigation:hover .img-caption {
 	visibility: visible;
 	opacity: 1;
+}
+
+#contactlist {
+	text-align: center;
+    width: 100%;
+	margin-top: 1%;
+	font-family: 'Lobster', sans-serif;\
+	bottom: 0;
+	position: fixed;
+}
+
+#subtag {
+	text-align: center;
+	color: rgb(199, 182, 109);
+	font-size: 1.6em;
+	font-family: 'Pacifico', cursive;
+}
+
+.contactlink {
+	padding-left: 1em;
+	padding-right: 1em;
 }
