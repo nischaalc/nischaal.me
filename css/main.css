@@ -1,5 +1,10 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
 body {
-    margin: 0 auto;
+    margin: 0 auto 7.5em;
     max-width: 100%;
     font-family: 'Open Sans', sans-serif;
 	line-height: 1;
@@ -16,6 +21,7 @@ body {
 	padding-left: 10%;
 	padding-right: 10%;
 	font-family: 'Pacifico', cursive;
+	line-height: 1.1em;
 }
 
 nav a {
@@ -120,7 +126,8 @@ a {
 	font-family: 'Lobster', sans-serif;
 	bottom: 5px;
 	position: absolute;
-	opacity: 0.5;
+	opacity: 0.2;
+	height: 7.5em;
 }
 
 #contactlist:hover {
