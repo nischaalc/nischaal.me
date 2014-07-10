@@ -5,25 +5,7 @@
 	line-height: 1.5;
 }
 
-#subtag {
-	text-align: center;
-	color: rgb(199, 182, 109);
-	font-size: 1.6em;
-	font-family: 'Pacifico', cursive;
+.special-link {
+	margin-top: -2.5%;
+	margin-bottom: 2%;
 }
-
-#contactlist {
-	text-align: center;
-	display: block;
-    width: 100%;
-	margin-bottom: 0.2;
-}
-
-.contactlink {
-	padding-left: 1em;
-	padding-right: 1em;
-}
-
-
-
-
