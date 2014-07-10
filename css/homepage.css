@@ -95,3 +95,9 @@
 	80% { opacity: 0; }
     100% { opacity: 0; }
 }
+
+@media only screen and (min-width: 470px) and (max-width: 529px) {
+	.rot-words span{
+		margin-left: -30%;
+	}
+}
