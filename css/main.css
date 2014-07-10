@@ -35,6 +35,7 @@ nav a {
 
 /* Animation effect for the navigation bar */
 /* Inspired from a demo on typmanus.net */
+/* http://tympanus.net/Development/CreativeLinkEffects/#cl-effect-12 */
 
 .nav-effect a::before,
 .nav-effect a::after {
