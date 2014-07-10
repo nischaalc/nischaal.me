@@ -117,10 +117,25 @@ a {
 #contactlist {
 	text-align: center;
     width: 100%;
-	margin-top: 1%;
-	font-family: 'Lobster', sans-serif;\
-	bottom: 0;
-	position: fixed;
+	font-family: 'Lobster', sans-serif;
+	bottom: 5px;
+	position: absolute;
+	opacity: 0.5;
+}
+
+#contactlist:hover {
+	opacity: 1;
+}
+
+#contactlist .footer {
+	visibility: hidden;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.7em;
+	color: rgb(161,161,161);
+}
+
+#contactlist:hover .footer {
+	visibility: visible;
 }
 
 #subtag {
@@ -130,6 +145,10 @@ a {
 	font-family: 'Pacifico', cursive;
 }
 
+.links {
+	margin-top: -18px;
+	margin-bottom: -5px;
+}
 .contactlink {
 	padding-left: 1em;
 	padding-right: 1em;
