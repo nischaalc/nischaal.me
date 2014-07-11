@@ -8,11 +8,9 @@ Editor of choice - [Brackets.io](http://brackets.io)
 Notes
 -----
 
-* The site isn't fully responsive as yet - resizing the browser window will cause visual glitches. I'm working on 
-fixing this by using [FlowType.js](http://simplefocus.com/flowtype/).
-* There are no scripts implemented - I haven't really had the need to include them yet.
+* ~~The site isn't fully responsive as yet - resizing the browser window will cause visual glitches. I'm working on 
+fixing this by using [FlowType.js](http://simplefocus.com/flowtype/).~~
+* ~~There are no scripts implemented - I haven't really had the need to include them yet.~~
 * Some of the images and text currently visible are just placeholders. 
-
-[Check it out!](http://nischaalc.github.io/nischaal.me/)
 
 
