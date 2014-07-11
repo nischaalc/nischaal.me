@@ -4,20 +4,20 @@ html {
 }
 
 body {
-    margin: 0 auto 7.5em;
-    max-width: 100%;
-    font-family: 'Open Sans', sans-serif;
+	margin: 0 auto 7.5em;
+	max-width: 100%;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1;
-    font-size: 16px;
-    color: #000;
-    background-color: rgb(231, 76, 60); 
+	font-size: 16px;
+	color: #000;
+	background-color: rgb(231, 76, 60); 
 }
 
 #tagline{ 
 	padding-top: 2.2%;
-    font-size: 4em;
-    color: rgb(199, 182, 109);
-    text-align: center;   
+	font-size: 4em;
+	color: rgb(199, 182, 109);
+	text-align: center;   
 	padding-left: 10%;
 	padding-right: 10%;
 	font-family: 'Pacifico', cursive;
@@ -77,26 +77,26 @@ nav a {
 
 #navigation {
 	position: absolute;
-    text-align: center;
-    width : 100%;
-    display: block;
+	text-align: center;
+	width : 100%;
+	display: block;
 }
 
 .navoption { 
 	padding-top: 1.5em;
 	padding-right: 1em;
 	padding-left: 1em;
-    display: inline-block;
+	display: inline-block;
 }
 
 #footer{
-    display: block;
-    text-align: center;
-    font-size: 0.75em;
-    bottom:0;
-    width: 100%;
-    height: 30px;
-    color: rgb(154, 154, 154);
+	display: block;
+	text-align: center;
+	font-size: 0.75em;
+	bottom:0;
+	width: 100%;
+	height: 30px;
+	color: rgb(154, 154, 154);
 	position: fixed;
 }
 
@@ -123,11 +123,11 @@ a {
 
 #contactlist {
 	text-align: center;
-    width: 100%;
+	width: 100%;
 	font-family: 'Lobster', sans-serif;
 	bottom: 5px;
 	position: absolute;
-	opacity: 0.2;
+	opacity: 0.4;
 	height: 7.5em;
 }
 
