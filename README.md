@@ -13,4 +13,6 @@ fixing this by using [FlowType.js](http://simplefocus.com/flowtype/).
 * There are no scripts implemented - I haven't really had the need to include them yet.
 * Some of the images and text currently visible are just placeholders. 
 
+[Check it out!](http://nischaalc.github.io/nischaal.me/)
+
 
