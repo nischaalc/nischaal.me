@@ -1,41 +1,34 @@
 #hometext{
-    width: 50%;
-	position: relative;
-    text-align: center;
     font-size: 2em;  
-	padding-left: 25%;
     padding-top: 3%;
+	text-align: center;
+	width: 100%;
 }
 
 .introline {
 	font-family: 'Lobster', cursive;
 	font-size: 1.3em;
-	color: rgb(217, 204, 150)
+	color: rgb(217, 204, 150);
 }
 
 .introtext {
 	height: 250px;
 }
 
-.rot-section {
-	display: inline;
-}
-
 .rot-words span{
-	width: 5em;
-	text-align: center;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
 	font-family: 'Lobster', cursive;
 	color: rgb(199, 182, 109);
-	font-size: 2em;
+	font-size: 1.7em;
 	position: absolute;
 	opacity: 0;
 	overflow: hidden;
 	-webkit-animation: rotateW 18s linear infinite 0s;
 	-ms-animation: rotateW 18s linear infinite 0s;
 	animation: rotateW 18s linear infinite 0s;
-	margin-top: 3%;
-	padding: 2%;
-	margin-left: -48%;
+	padding: 0.3em;
 }
 
 .rot-words span:nth-child(2) { 
