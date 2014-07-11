@@ -11,7 +11,6 @@
 <head>
     <title> Home </title>
 	
-	<!--<meta http-equiv="refresh" content="0; URL=http://www.newsite.com/newurl.html">-->
 	<meta http-equiv="content-type" content="text/html">
 	<meta name="keywords" content="Nischaal Cooray, Drexel University, Computer Science, Philadelphia">
 	<meta name="description" content="Nischaal is an undergraduate student at Drexel University, where he is undergoing training to be a ninja.">
@@ -21,17 +20,13 @@
 	<meta name="copyright" content="NischaalCooray" />
 	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1'>
 	
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/homepage.css">
 	<link rel = "stylesheet" href = "css/specialLinkCSS.css">
 		
-	<script src="jquery-1.11.1.min.js"></script>
-	<script src="foundation.js"></script>
-	<script src = "foundation.reveal.js"></script>
-	
-	<script>
-		$(document).foundation();
-	</script>
+	<script src="js/vendor/modernizr.js"></script>
 
     <link href='http://fonts.googleapis.com/css?family=Pacifico|Lobster|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	
@@ -45,6 +40,7 @@
 
 <body>
 
+<!-- Navigation Menu -->
 <div id = "navigation"> 
 	<nav class = "nav-effect" id = "nav-effect">
 		<a href = "index.html" class = "link">
@@ -67,7 +63,7 @@
 		</a>
 	</nav>
 </div>
-
+<!-- End of Navigation Menu -->
 
 <div id = "tagline">
 	<p>Hey there!</p>
@@ -75,7 +71,7 @@
 
 <section id = "hometext">
 	<div class = "introtext">
-		<span class = "introline"> My name is Nischaal Cooray and I am</span>
+		<span class = "introline"> My name is Nischaal Cooray and I am</br></span>
 		<div class = "rot-section rot-words">
 			<span>Sri Lankan</span>
 			<span>a developer</span>
@@ -96,6 +92,16 @@
 	</div>
 	<span class = "footer">This site was designed and developed by me.</span>
 </div>
+
+<!-- jQuery Scripts -->
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation/foundation.js"></script>
+<script src="js/foundation/foundation.reveal.js"></script>
+
+<script>
+	$(document).foundation();
+</script>
+<!-- ************** -->
 
 </body>
 </html>
