@@ -111,6 +111,7 @@ button img {
 }
 
 .modal-title {
+	box-shadow: 0 8px 6px -6px black;
 	border-bottom: 1px solid rgb(212,212,212);
 	text-align: center;
 	width: 20em;
