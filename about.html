@@ -23,13 +23,7 @@
     <link rel="stylesheet" href="css/about.css">
 	<link rel = "stylesheet" href = "css/specialLinkCSS.css">
 	
-	<script src="jquery-1.11.1.min.js"></script>
-	<script src="foundation.js"></script>
-	<script src = "foundation.reveal.js"></script>
-	
-	<script>
-		$(document).foundation();
-	</script>
+	<script src="js/vendor/modernizr.js"></script>
 	
     <link href='http://fonts.googleapis.com/css?family=Open+Sans|Pacifico|Lobster' rel='stylesheet' type='text/css'>
 
@@ -37,6 +31,7 @@
 
 <body>
 
+<!-- Navigation Menu -->
 <div id = "navigation"> 
 	<nav class = "nav-effect" id = "nav-effect">
 		<a href = "index.html" class = "link">
@@ -59,6 +54,7 @@
 		</a>
 	</nav>
 </div>
+<!-- End of Navigation Menu -->
 
 <div id = "tagline">
 	<p>So you want to get to know me, do you?</p>
@@ -83,13 +79,13 @@
 	<a href = "http://en.wikipedia.org/wiki/Artificial_intelligence" >
 	Artificial Intelligence</a> but, along the way, I found that I also enjoy <a href = "https://github.com/nischaalc/Shopaholic"  >mobile 
 	development</a>, <a href = "http://nischaalc.github.io/nischaal.me/index.html" >Web development</a> and <a href = "http://en.wikipedia.org/wiki/User_experience_design"  >UX	design</a> 
-	(and I haven't even scratched the surface!). This is probably my one gripe about CS - being such a 
+	(and I haven't even scratched the surface!). This is probably my one gripe about Computer Science - being such a 
 	vast field, how are we meant to find a single thing that we love 
 	doing more than anything else?!
 	</p>
 	<p>
 	Anyway, that's pretty much everything about me that can't be found on my personal pages (links below) and my 
-	<a href = "docs/resume.pdf" >résumé</a>. Feel free to contact me, I don't bite!  
+	<a href = "docs/resume.pdf" target = "_blank">résumé</a>. Feel free to contact me, I don't bite!  
 	</p>
 </section>
 
@@ -102,6 +98,16 @@
 	</div>
 	<span class = "footer">This site was designed and developed by me.</span>
 </div>
+
+<!-- jQuery Scripts -->
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation/foundation.js"></script>
+<script src="js/foundation/foundation.reveal.js"></script>
+
+<script>
+	$(document).foundation();
+</script>
+<!-- ************** -->
 
 </body>
 </html>
