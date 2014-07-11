@@ -9,8 +9,7 @@
 	<meta name="description" content="Nischaal is an undergraduate student at Drexel University, where he is undergoing training to be a ninja.">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="copyright" content="NischaalCooray" />
-	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1'>
+	<meta name="copyright" content="NischaalCooray">
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/projects.css">
@@ -25,6 +24,7 @@
 
 <body>
 
+<!-- Navigation Menu -->
 <div id = "navigation"> 
 	<nav class = "nav-effect" id = "nav-effect">
 		<a href = "index.html" class = "link">
@@ -47,6 +47,7 @@
 		</a>
 	</nav>
 </div>
+<!-- End of Navigation Menu -->
 
 <div id = "tagline">
 	<p>Anything catch your fancy?</p>
@@ -57,24 +58,25 @@
 	to see more projects I've worked on.</p>
 </section>
 
+<!-- Project Showcase -->
 <div id = "proj-container">
 	<div class = "proj-row">
 		<div id = "projects">
-			<a href = "#" data-reveal-id="shop-modal">
+			<a href = "#" data-reveal-id="shop-modal"> <!-- First Modal -->
 				<button class = "project-item">
 				<img src = "images/shopaholic.ico" class = "project-img"/>
 				Shopaholic.
 				<p class = "subtext">Shop Better.</p>
 				</button>
 			</a>
-			<a href = "#" data-reveal-id = "site-modal">
+			<a href = "#" data-reveal-id = "site-modal"> <!-- Second Modal -->
 				<button class = "project-item">
 					<img src = "images/me.png" class = "project-img"/>
 					nischaal.me
 					<p class = "subtext">You're looking at it :)</p>
 				</button>
 			</a>
-			<a href = "#" data-reveal-id = "swipe-modal">
+			<a href = "#" data-reveal-id = "swipe-modal"> <!-- Third Modal -->
 				<button class = "project-item">
 					<img src = "images/swipe.ico" class = "project-img"/>
 					Swipe-aholic!
@@ -84,10 +86,11 @@
 		</div>
 	</div>
 </div>
+<!-- End of Project Showcase -->
 
 <!-- Modal Dialog Content -->
 
-<div id="shop-modal" class="reveal-modal" data-reveal>
+<div id="shop-modal" class="reveal-modal" data-reveal> <!-- First Modal -->
 	<p class = "modal-title">Shopaholic.</p>
 	<p class = "tag">Shop Better.</p>
 	<p class="lead">In development for iOS. Currently in alpha.</p>
@@ -97,8 +100,8 @@
 	Add items to your Cart and once you feel like you've added enough, tell Shopaholic to do its' magic and it'll calculate which
 	store is selling most, if not all, of the items that you want - for the lowest total price.</br>
 		<ul>
-			<li>Built using <a href = "https://developer.apple.com/xcode/">Apple Xcode</a></li>
-			<li>Designed in <a href = "http://www.adobe.com/products/photoshop.html">Adobe PhotoShop</a></li>
+			<li>Built using <a href = "https://developer.apple.com/xcode/">Apple Xcode</a> 5.</li>
+			<li>Designed in <a href = "http://www.adobe.com/products/photoshop.html">Adobe PhotoShop</a> CS5.</li>
 			<li>Developed in collaboration with:
 				<ul>
 					<li>Zoltan Gercsak</li>
@@ -111,11 +114,11 @@
 	
 	<a class="close-reveal-modal">&#215;</a>
 	<a href = "https://github.com/nischaalc/Shopaholic"  class = "git-button">
-		See it on GitHub
+		See it on GitHub!
 	</a>
 </div>
 
-<div id="site-modal" class="reveal-modal" data-reveal>
+<div id="site-modal" class="reveal-modal" data-reveal> <!-- Second Modal -->
 	<p class = "modal-title">nischaal.me</p>
 	<p class = "tag">My portfolio website.</p>
 	<p class="lead">Built for the web! Please contact me if you encounter any issues with the site!</p>
@@ -127,7 +130,7 @@
 	go ahead and fork the repository and submit a pull request when you're done making changes. </br>
 	Kudos to: </br>
 		<ul>
-			<li><a href = "http://zurb.com/">Zurb</a> for <a href = "http://foundation.zurb.com/">Foundation</a> (provided under the <a href = "https://en.wikipedia.org/wiki/MIT_License">MIT License</a>), their amazing Framework!</li>
+			<li><a href = "http://zurb.com/">Zurb</a> for <a href = "http://foundation.zurb.com/">Foundation</a> (provided under the <a href = "https://en.wikipedia.org/wiki/MIT_License">MIT License</a>), their amazing responsive framework!</li>
 			<li><a href = "http://flaticons.net/">Flat Icons</a> for their royalty free library of minimalistic, flat icons, used in the navigation bar and footer. </li>
 			<li><a href = "https://twitter.com/d_leech">Dan Leech</a> for his <a href = "http://simpleicons.org/">flat social icons</a> (provided under the <a href = "http://artlibre.org/licence/lal/en/">Free Art</a> License)
 			used in the footer.</li>
@@ -135,11 +138,11 @@
 	</p>
 	<a class="close-reveal-modal">&#215;</a>
 	<a href = "https://github.com/nischaalc/nischaal.me"  class = "git-button">
-		See it on GitHub
+		See it on GitHub!
 	</a>
 </div>
 
-<div id="swipe-modal" class="reveal-modal" data-reveal>
+<div id="swipe-modal" class="reveal-modal" data-reveal> <!-- Third Modal -->
 	<p class = "modal-title">Swipe-aholic!</p>
 	<p class = "tag">Get those ads!</p>
 	<p class="lead">Coming soon from Team Effort - the team behind Shopaholic.</p>
@@ -164,13 +167,15 @@
 	<span class = "footer">This site was designed and developed by me.</span>
 </div>
 
+<!-- jQuery Scripts -->
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation/foundation.js"></script>
 <script src="js/foundation/foundation.reveal.js"></script>
-	
+
 <script>
 	$(document).foundation();
 </script>
+<!-- ************** -->
 
 </body>
 </html>
