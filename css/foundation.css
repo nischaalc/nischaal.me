@@ -134,6 +134,10 @@ dialog, .reveal-modal {
     cursor: pointer; 
 }
 
+dialog .close-reveal-modal:hover, .reveal-modal .close-reveal-modal:hover {
+	color: rgb(231, 76, 60);
+}
+
 dialog[open] {
   display: block;
   visibility: visible; 
