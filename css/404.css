@@ -1,18 +1,6 @@
-body {
-	margin: 0;
-	padding: 0;
-	height: auto;
-}
-
-body p {
-	text-align: center;
-}
-
 #hex {
 	color: rgb(255, 255, 255);
 	font-size: 4em;
-	position: relative;
-	top: 50%;
 	text-align: center;
 	margin-top: 4%;
 }
@@ -20,15 +8,13 @@ body p {
 #oops {
 	font-family: 'Armata', sans-serif;
 	text-align: center;
-	width: 100%;
-	position: relative;
 	color: rgb(255, 255, 255);
 	padding-top: 3%;
 	line-height: 1.5em;
 }
 
 #main-tag {
-	padding-top: 20%;
+	padding-top: 3em;
     font-size: 3em;
     color: rgb(255, 255, 255);
     text-align: center;   
