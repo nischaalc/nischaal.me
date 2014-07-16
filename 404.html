@@ -27,7 +27,7 @@
 	
 	<script src="js/vendor/modernizr.js"></script>
 
-    <link href='http://fonts.googleapis.com/css?family=Armata|Open+Sans|Exo:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Armata|Open+Sans|Exo:700|Inconsolata' rel='stylesheet' type='text/css'>
 	
 </head>
 
@@ -66,15 +66,50 @@
 
 <div id = "oops">
 	It seems I couldn't find the page you were looking for. Take a look at this cool hex clock instead!</br>
-	It's pretty easy to <a href = "#" data-reveal-id="html-modal">set up</a> as well!
+	It's pretty easy to <a href = "#" data-reveal-id="html-modal">set up</a> too!
 </div>
 
 <div id = "hex"></div>
 
 <div id="html-modal" class="reveal-modal" data-reveal> 
-	<pre>
-		<code>&ltdiv id = "hex"&gt&lt/div&gt</code>
-	</pre>
+    HTML: </br>
+    <div class = "container">
+        <pre>
+                &lt;div id = "hex-clock"&gt;&lt;/div&gt;
+        </pre>
+    </div>
+    </br>
+    JavaScript: </br>
+    <div class = "container">
+        <pre>
+                 &lt;script&gt;
+                    var d, h, m, s, colorVal;
+
+                    function showTime()
+                    {
+
+                        d = new Date();
+                        h = d.getHours();
+                        m = d.getMinutes();
+                        s = d.getSeconds();
+
+                        if (h &lt;= 9) h = '0' + h;
+                        if (m &lt;= 9) m = '0' + m;
+                        if (s &lt;= 9) s = '0' + s;
+
+                        color =  '#'+h+m+s;
+
+                        document.body.style.backgroundColor = color;
+
+                        document.getElementById(hex-clock).innerHTML = color;
+
+                        setTimeout(showTime, 1000);
+                    }
+
+                    showTime();
+
+                &lt;/script&gt;
+        </pre>
 	<a class="close-reveal-modal">&#215;</a>
 </div>
 
@@ -82,6 +117,7 @@
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation/foundation.js"></script>
 <script src="js/foundation/foundation.reveal.js"></script>
+<script src='extras/prism.js'></script>
 
 <script>
 	$(document).foundation();
@@ -98,9 +134,9 @@
 		m = d.getMinutes();
 		s = d.getSeconds();
 		
-		if (h < 9) h = '0' + h;
-		if (m < 9) m = '0' + m;
-		if (s < 9) s = '0' + s;
+		if (h <= 9) h = '0' + h;
+		if (m <= 9) m = '0' + m;
+		if (s <= 9) s = '0' + s;
 		
 		color = '#'+h+m+s;
 		
