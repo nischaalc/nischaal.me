@@ -1,33 +1,24 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<!DOCTYPE html>
 
 <html>
 <head>
-    <title> Oops! </title>
+    <title> Projects </title>
 	
 	<meta http-equiv="content-type" content="text/html">
 	<meta name="keywords" content="Nischaal Cooray, Drexel University, Computer Science, Philadelphia">
 	<meta name="description" content="Nischaal is an undergraduate student at Drexel University, where he is undergoing training to be a ninja.">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="My personal web page.">
-	<meta name="copyright" content="NischaalCooray" />
-	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1'>
-	
+	<meta name="copyright" content="NischaalCooray">
+
     <link rel="stylesheet" href="css/main.css">
-	<link rel ="stylesheet" href = "css/404.css">
+    <link rel="stylesheet" href="css/projects.css">
 	<link rel = "stylesheet" href = "css/specialLinkCSS.css">
 	<link rel = "stylesheet" href = "css/foundation.css">
 	
 	<script src="js/vendor/modernizr.js"></script>
-
-    <link href='http://fonts.googleapis.com/css?family=Armata|Open+Sans|Exo:700' rel='stylesheet' type='text/css'>
+	
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Pacifico|Lobster|Source+Sans+Pro' rel='stylesheet' type='text/css'>
 	
 </head>
 
@@ -58,25 +49,103 @@
 </div>
 <!-- End of Navigation Menu -->
 
-<div id = "title-text"> 404 </div>
-
-<div id = "main-tag">
-	Well... This is embarassing.
+<div id = "tagline">
+	<p>Anything catch your fancy?</p>
 </div>
 
-<div id = "oops">
-	It seems I couldn't find the page you were looking for. Take a look at this cool hex clock instead!</br>
-	It's a pretty easy to set up clock as well! All you need is this 
-	<a href = "#" data-reveal-id="html-modal">HTML</a> and this <a href = "#" data-reveal-id="js-modal">JavaScript</a>.
+<section class = "special-link">
+	<p id = "subtitle-text">Check out my <a href ="https://github.com/nischaalc" >GitHub</a>
+	to see more projects I've worked on.</p>
+</section>
+
+<!-- Project Showcase -->
+<div id = "proj-container">
+	<div class = "proj-row">
+		<div id = "projects">
+			<a href = "#" data-reveal-id="shop-modal"> <!-- First Modal -->
+				<button class = "project-item">
+					<img src = "images/shopaholic.ico" class = "project-img"/>
+					Shopaholic.
+					<p class = "subtext">Shop Better.</p>
+				</button>
+			</a>
+			<a href = "#" data-reveal-id = "site-modal"> <!-- Second Modal -->
+				<button class = "project-item">
+					<img src = "images/me.png" class = "project-img"/>
+					nischaal.me
+					<p class = "subtext">You're looking at it :)</p>
+				</button>
+			</a>
+		</div>
+	</div>
 </div>
+<!-- End of Project Showcase -->
 
-<div id = "hex"></div>
+<!-- Modal Dialog Content -->
 
-<div id="html-modal" class="reveal-modal" data-reveal> 
-	<pre>
-		<code>&ltdiv id = "hex"&gt&lt/div&gt</code>
-	</pre>
+<div id="shop-modal" class="reveal-modal" data-reveal> <!-- First Modal -->
+	<p class = "modal-title">Shopaholic.</p>
+	<p class = "tag">Shop Better.</p>
+	<p class="lead">In development for iOS. Currently in alpha.</p>
+	<p class = "modal-summary">Shopaholic is an app that wants to change the way you shop.
+	No longer will you have to worry about finding something that you need - 
+	Shopaholic will tell you which stores have it, along with a whole ton of details about the item and how to get to the stores that are selling it!
+	Add items to your Cart and once you feel like you've added enough, tell Shopaholic to do its' magic and it'll calculate which
+	store is selling most, if not all, of the items that you want - for the lowest total price.</br>
+		<ul>
+			<li>Built using <a href = "https://developer.apple.com/xcode/">Apple Xcode</a> 5.</li>
+			<li>Designed in <a href = "http://www.adobe.com/products/photoshop.html">Adobe PhotoShop</a> CS5.</li>
+			<li>Developed in collaboration with:
+				<ul>
+					<li>Zoltan Gercsak</li>
+					<li>Sean Swartz</li>
+					<li>Roger White</li>
+				</ul>
+			</li>
+		</ul>
+	</p>
+	
 	<a class="close-reveal-modal">&#215;</a>
+	<a href = "https://github.com/nischaalc/Shopaholic"  class = "git-button">
+		See it on GitHub!
+	</a>
+</div>
+
+<div id="site-modal" class="reveal-modal" data-reveal> <!-- Second Modal -->
+	<p class = "modal-title">nischaal.me</p>
+	<p class = "tag">My portfolio website.</p>
+	<p class="lead">Built for the web! Please contact me if you encounter any issues with the site!</p>
+	<p class = "modal-summary">Ah... Web Development. Being my first official foray
+	into the field, this site took me quite some time to get right - just check out the git repository 
+	at the link below if you don't believe me! </br>
+	Built using HTML5, CSS3, JavaScript and <a href = "http://jquery.com/" >jQuery</a>, this
+	site has finally come to fruition! Feel free to <a href = "mailto:nischaalc@gmail.com">contact me</a> with suggestions or 
+	go ahead and fork the repository and submit a pull request when you're done making changes. </br>
+	Kudos to: </br>
+		<ul>
+			<li><a href = "http://zurb.com/">Zurb</a> for <a href = "http://foundation.zurb.com/">Foundation</a> (provided under the <a href = "https://en.wikipedia.org/wiki/MIT_License">MIT License</a>), their amazing responsive framework!</li>
+			<li><a href = "http://flaticons.net/">Flat Icons</a> for their royalty free library of minimalistic, flat icons, used in the navigation bar and footer. </li>
+			<li><a href = "https://twitter.com/d_leech">Dan Leech</a> for his <a href = "http://simpleicons.org/">flat social icons</a> (provided under the <a href = "http://artlibre.org/licence/lal/en/">Free Art</a> License)
+			used in the footer.</li>
+			<li><a href = "http://tympanus.net/codrops/">Codrops</a> for the incredible tutorials on CSS3 and JavaScript.</li>
+		</ul>
+	</p>
+	<a class="close-reveal-modal">&#215;</a>
+	<a href = "https://github.com/nischaalc/nischaal.me"  class = "git-button">
+		See it on GitHub!
+	</a>
+</div>
+
+<!-- End of Modal Content -->
+
+<div id = "contactlist">
+	<p id = "subtag">Get in touch!</p>
+	<div class = "links">
+		<a href = "https://github.com/nischaalc"  class = "contactlink"><img src = "images/git.png" alt = "GitHub"></a>
+		<a href = "https://www.linkedin.com/profile/view?id=340474561"   class = "contactlink"><img src = "images/linked.png" alt = "LinkedIn"></a>
+		<a href = "mailto:nischaalc@gmail.com"  class = "contactlink" target = "_blank"><img src = "images/mail.png" alt = "E-Mail"></a>
+	</div>
+	<span class = "footer">This site was designed and developed by me.</span>
 </div>
 
 <!-- jQuery Scripts -->
@@ -88,33 +157,6 @@
 	$(document).foundation();
 </script>
 <!-- ************** -->
-
-<script>
-	var d, h, m, s, colorVal;
-
-	function showTime() {
-		
-		d = new Date();
-		h = d.getHours();
-		m = d.getMinutes();
-		s = d.getSeconds();
-		
-		if (h < 9) h = '0' + h;
-		if (m < 9) m = '0' + m;
-		if (s < 9) s = '0' + s;
-		
-		color = '#'+h+m+s;
-		
-		document.body.style.backgroundColor = color;
-				
-		document.getElementById("hex").innerHTML = color;
-		
-		setTimeout(showTime, 1000);
-	}
-
-	showTime();
-
-</script>
 
 </body>
 </html>
