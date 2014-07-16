@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/main.css">
 	<link rel ="stylesheet" href = "css/404.css">
 	<link rel = "stylesheet" href = "css/specialLinkCSS.css">
+	<link rel = "stylesheet" href = "css/foundation.css">
 	
 	<script src="js/vendor/modernizr.js"></script>
 
@@ -64,10 +65,29 @@
 </div>
 
 <div id = "oops">
-	It seems I couldn't find the page you were looking for. Take a look at this cool hex clock instead!
+	It seems I couldn't find the page you were looking for. Take a look at this cool hex clock instead!</br>
+	It's a pretty easy to set up clock as well! All you need is this 
+	<a href = "#" data-reveal-id="html-modal">HTML</a> and this <a href = "#" data-reveal-id="js-modal">JavaScript</a>.
 </div>
 
 <div id = "hex"></div>
+
+<div id="html-modal" class="reveal-modal" data-reveal> 
+	<pre>
+		<code>&ltdiv id = "hex"&gt&lt/div&gt</code>
+	</pre>
+	<a class="close-reveal-modal">&#215;</a>
+</div>
+
+<!-- jQuery Scripts -->
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation/foundation.js"></script>
+<script src="js/foundation/foundation.reveal.js"></script>
+
+<script>
+	$(document).foundation();
+</script>
+<!-- ************** -->
 
 <script>
 	var d, h, m, s, colorVal;
