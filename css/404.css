@@ -31,7 +31,7 @@
 }
 
 #main-tag {
-	padding-top: 1%;
+	padding-top: 3em;
     font-size: 3em;
     color: rgb(255, 255, 255);
     text-align: center;   
@@ -70,4 +70,22 @@ pre {
     padding-top: 1em;
     margin-top: 1em;
  }
-
+ 
+ #title-text span {
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+ }
+ 
+  #title-text:hover .first {
+	visibility: hidden;
+  }
+  
+  #title-text:hover .second {
+	visibility: visible;
+  }
+  
+ #title-text .second {
+	visibility: hidden;
+}
