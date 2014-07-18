@@ -79,6 +79,7 @@ button img {
 	font-size: 0.7em;
 	color: rgb(231, 76, 60); 
 	text-align: center;
+	margin-right: 1em;
 }
 
 .git-button:hover,
@@ -146,9 +147,36 @@ ul {
 	line-height: 1.5em;
 }
 
-ul a {
+.sub {
+	font-style: italic;
+}
+
+ul  a,
+.sub a {
 	font-weight: bold;
 	color: rgb(231, 76, 60); 
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
 }
+
+.git-button-disabled {
+	height: 1em;
+	width: 8.5em;
+	margin: 0 auto;
+	padding: 0.5em 1em;
+	border: 1px solid #d4d4d4;
+	background-color: #ececec;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
+	background-image: -moz-linear-gradient(#f4f4f4, #ececec);
+	background-image: -ms-linear-gradient(#f4f4f4, #ececec);
+	background-image: -o-linear-gradient(#f4f4f4, #ececec);
+	background-image: linear-gradient(#f4f4f4, #ececec);
+	background-clip: padding-box;
+	border-radius: 0.2em;
+	font-size: 0.7em;
+	color: rgb(194, 194, 194); 
+	text-align: center;
+	cursor: default; 
+	margin-right: 1em;
+}
+
