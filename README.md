@@ -1,16 +1,13 @@
-Currently in the works!
+My portfolio website
 =======================
 
-My personal portfolio website - development in progress using HTML5, CSS3, JavaScript and a few JS Libraries.
+My personal portfolio website - developed using HTML5, CSS3, JavaScript and a few JavaScript Libraries.
+My first official foray into Web Development so feel free to let me know if you encounter any issues! 
+
+*I would appreciate if you didn't copy the design.*
+
 
 Editor of choice - [Brackets.io](http://brackets.io)
 
-Notes
------
-
-* ~~The site isn't fully responsive as yet - resizing the browser window will cause visual glitches. I'm working on 
-fixing this by using [FlowType.js](http://simplefocus.com/flowtype/).~~
-* ~~There are no scripts implemented - I haven't really had the need to include them yet.~~
-* ~~Some of the images and text currently visible are just placeholders.~~
 
 
