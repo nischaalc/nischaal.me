@@ -41,9 +41,9 @@
 
 button img {
 	float:left;
-	padding-left: 0.1em;
 	width: 60px;
 	height:60px;
+    border-radius: 50%;
 }
 
 #proj-container {
