@@ -21,7 +21,7 @@
 	background-color: rgb(181, 58, 45);
 	border: none;
 	border-radius: 5px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Josefin Slab', serif;
 	font-size: 1.25em;
 	cursor: pointer;
 	display: inline-block;
@@ -49,11 +49,7 @@ button img {
 #proj-container {
 	padding-top: 0.8em;
 	text-align: center;
-}
-
-.proj-row {
-	margin-left: 3em;
-	margin-right: 3em;
+	float: center;
 }
 
 .subtext {
@@ -179,4 +175,3 @@ ul  a,
 	cursor: default; 
 	margin-right: 1em;
 }
-
