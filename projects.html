@@ -18,7 +18,7 @@
 	
 	<script src="js/vendor/modernizr.js"></script>
 	
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Pacifico|Lobster|Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Pacifico|Lobster|Josefin+Slab' rel='stylesheet' type='text/css'>
 	
 </head>
 
@@ -54,8 +54,8 @@
 </div>
 
 <section class = "special-link">
-	<p id = "subtitle-text">Check out my <a href ="https://github.com/nischaalc" >GitHub</a>
-	to see more projects I've worked on.</p>
+	<p id = "subtitle-text">Check out my <a href ="https://github.com/nischaalc">GitHub</a>
+	for more of my work.</p>
 </section>
 
 <!-- Project Showcase -->
@@ -71,16 +71,23 @@
 			</a>
 			<a href = "#" data-reveal-id = "site-modal"> <!-- Second Modal -->
 				<button class = "project-item">
-					<img src = "images/me.png" class = "project-img"/>
+					<img src = "images/site_logo.png" class = "project-img"/>
 					nischaal.me
 					<p class = "subtext">You're looking at it :)</p>
 				</button>
 			</a>
-			<a href = "#" data-reveal-id = "paata-modal"> <!-- Second Modal -->
+			<a href = "#" data-reveal-id = "paata-modal"> <!-- Third Modal -->
 				<button class = "project-item">
-					<img src = "images/mk.png" class = "project-img"/>
+					<img src = "images/paata_logo.png" class = "project-img"/>
 					Paata!
 					<p class = "subtext">A color picker with style</p>
+				</button>
+			</a>
+			<a href = "#" data-reveal-id = "password-modal"> <!-- Fourth Modal -->
+				<button class = "project-item">
+					<img src = "images/pw_logo.png" class = "project-img"/>
+					Can it be broken?
+					<p class = "subtext">A password strength test</p>
 				</button>
 			</a>
 		</div>
@@ -143,7 +150,7 @@
 	</a>
 </div>
 
-<div id="paata-modal" class="reveal-modal" data-reveal> <!-- Second Modal -->
+<div id="paata-modal" class="reveal-modal" data-reveal> <!-- Third Modal -->
 	<p class = "modal-title">Paata!</p>
 	<p class = "tag">Color everything!</p>
 	<p class="lead">Built for the web! Please contact me if you encounter any issues with the site!</p>
@@ -151,9 +158,9 @@
 	major role in the UX and picking the right ones can make or break your interface! Because of this
 	I decided to build a color picker <a href = "colorpicker.com">(this sort of thing)</a> that
 	would stand out from the rest. Paata (<em>Sinhalese for "color"</em>) is the result of this experiment.
-	The minimal interface presents three (fourth coming soon!) sliders that allow you to change RGB 
+	The minimal interface presents three sliders that allow you to change RGB 
 	values and your changes are reflected in the change to the background. Paata gives you your color values in RGB, RGBA and
-	hex and will soon generate complementary colors as well!</br>
+	hex and generates a color that complements your color!</br>
 	Built using HTML5, CSS3, JavaScript and <a href = "http://jquery.com/" >jQuery</a>. Feel free to <a href = "mailto:nischaalc@gmail.com">contact me</a> with suggestions or 
 	go ahead and fork the repository and submit a pull request when you're done making changes. </br>
 	Kudos to: </br>
@@ -163,10 +170,28 @@
 		</ul>
 	</p>
 	<a class="close-reveal-modal">&#215;</a>
-	<a href = "https://github.com/nischaalc/paata"  class = "git-button">
+	<a href = "https://github.com/nischaalc/nischaal.me"  class = "git-button">
 		See it on GitHub!
 	</a>
 		<a href = "https://nischaalc.github.io/paata/paata.html"  class = "git-button">
+		Check it out!
+	</a>
+</div>
+
+<div id="password-modal" class="reveal-modal" data-reveal> <!-- Fourth Modal -->
+	<p class = "modal-title">Can it be broken?</p>
+	<p class = "tag">A password strength test</p>
+	<p class="lead">Built for the web! Please contact me if you encounter any issues with the site!</p>
+	<p class = "modal-summary">Just a small experiment to test the strength of passwords and see
+	how long it would take for them to be broken.</br>
+	Built using HTML5, CSS3, JavaScript and <a href = "http://jquery.com/" >jQuery</a>. Feel free to <a href = "mailto:nischaalc@gmail.com">contact me</a> with suggestions or 
+	go ahead and fork the repository and submit a pull request when you're done making changes. </br>
+	</p>
+	<a class="close-reveal-modal">&#215;</a>
+	<a href = "https://github.com/nischaalc/nischaal.me"  class = "git-button-disabled">
+		See it on GitHub!
+	</a>
+		<a href = "https://nischaalc.github.io/paata/paata.html"  class = "git-button-disabled">
 		Check it out!
 	</a>
 </div>
