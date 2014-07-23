@@ -32,7 +32,6 @@
 	line-height: 1;
 	padding-top: 0.2em;
 	text-align: center;
-	color: rgb(255, 255, 255);
 }
 
 .project-item:hover {
@@ -57,7 +56,6 @@ button img {
 	font-size: 0.8em;
 	font-family: 'Lobster', cursive;
 	text-align: center;
-	color: rgb(0,0,0);
 }
 
 .git-button {
