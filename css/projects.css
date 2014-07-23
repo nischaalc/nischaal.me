@@ -57,6 +57,7 @@ button img {
 	font-size: 0.8em;
 	font-family: 'Lobster', cursive;
 	text-align: center;
+	color: rgb(0,0,0);
 }
 
 .git-button {
