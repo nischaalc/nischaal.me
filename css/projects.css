@@ -32,6 +32,7 @@
 	line-height: 1;
 	padding-top: 0.2em;
 	text-align: center;
+	color: rgb(255, 255, 255);
 }
 
 .project-item:hover {
@@ -43,7 +44,7 @@ button img {
 	float:left;
 	width: 60px;
 	height:60px;
-    border-radius: 50%;
+    	border-radius: 50%;
 }
 
 #proj-container {
