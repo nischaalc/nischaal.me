@@ -49,18 +49,6 @@
 	animation-delay: 9s; 
 }
 
-.rot-words span:nth-child(5) { 
-    -webkit-animation-delay: 12s; 
-	-ms-animation-delay: 12s; 
-	animation-delay: 12s; 
-}
-
-.rot-words span:nth-child(6) { 
-    -webkit-animation-delay: 15s; 
-	-ms-animation-delay: 15s; 
-	animation-delay: 15s; 
-}
-
 @-webkit-keyframes rotateW {
     0% { opacity: 0; }
     2% { opacity: 0; -webkit-transform: translateY(-30px); }
