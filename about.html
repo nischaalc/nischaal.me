@@ -91,7 +91,7 @@
 	</p>
 </section>
 
-<div id = "maptext">My love for travel has led me to 24 cities in 13 countries... and I ain't done yet.</div>
+<div id = "maptext">My love for travel has led me to 31 cities in 16 countries... and I ain't done yet.</div>
 <div id = "mapcont">
 	<div id = "map"></div>
 </div>
@@ -107,11 +107,12 @@
 </div>
 
 <!-- jQuery Scripts -->
-<script src="js/map.js"></script>
-
 <script>
 	L.mapbox.accessToken = 'pk.eyJ1IjoibmNvb3JheSIsImEiOiJGZEVNQWY4In0.oP2WxC1zh9bGWLLo3zQGfA';
-	var map = L.mapbox.map('map', 'ncooray.j7lna2l8');
+	var map = L.mapbox.map('map', 'ncooray.j7lna2l8', {
+		worldCopyJump: true
+	}
+	).setView([0,0], 2);
 </script>
 <!-- ************** -->
 
