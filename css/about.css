@@ -9,3 +9,34 @@
 	margin-top: -2.5%;
 	margin-bottom: 2%;
 }
+
+#map {
+	width: 80%;
+	height: 500px;
+	margin-bottom: 2em;
+}
+
+#mapcont {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	  align-items: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	  justify-content: center;
+}
+
+#maptext {
+	text-align: center;
+	color: rgb(199, 182, 109);
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
