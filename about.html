@@ -23,8 +23,9 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/about.css">
 	<link rel = "stylesheet" href = "css/specialLinkCSS.css">
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.css' rel='stylesheet' />
 	
-	<script src="js/vendor/modernizr.js"></script>
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js'></script>
 	
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans|Pacifico|Lobster' rel='stylesheet' type='text/css'>
 
@@ -90,6 +91,11 @@
 	</p>
 </section>
 
+<div id = "maptext">My love for travel has led me to 24 cities in 13 countries... and I ain't done yet.</div>
+<div id = "mapcont">
+	<div id = "map"></div>
+</div>
+
 <div id = "contactlist">
 	<p id = "subtag">Get in touch!</p>
 	<div class = "links">
@@ -101,12 +107,11 @@
 </div>
 
 <!-- jQuery Scripts -->
-<script src="js/vendor/jquery.js"></script>
-<script src="js/foundation/foundation.js"></script>
-<script src="js/foundation/foundation.reveal.js"></script>
+<script src="js/map.js"></script>
 
 <script>
-	$(document).foundation();
+	L.mapbox.accessToken = 'pk.eyJ1IjoibmNvb3JheSIsImEiOiJGZEVNQWY4In0.oP2WxC1zh9bGWLLo3zQGfA';
+	var map = L.mapbox.map('map', 'ncooray.j7lna2l8');
 </script>
 <!-- ************** -->
 
